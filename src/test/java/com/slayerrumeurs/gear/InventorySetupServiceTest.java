@@ -44,8 +44,7 @@ public class InventorySetupServiceTest
 			assertEquals("get-setups", message.getName());
 			@SuppressWarnings("unchecked")
 			Collection<String> setups = (Collection<String>) message.getData().get("setups");
-			setups.add("Gargs max");
-			setups.add("Nechs");
+			setups.addAll(List.of("Gargs max", "Nechs"));
 			return null;
 		}).when(eventBus).post(org.mockito.ArgumentMatchers.any());
 

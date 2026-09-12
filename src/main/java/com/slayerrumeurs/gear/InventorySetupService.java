@@ -160,6 +160,13 @@ public class InventorySetupService
 		private boolean answered;
 
 		@Override
+		public boolean add(String value)
+		{
+			answered = true;
+			return super.add(value);
+		}
+
+		@Override
 		public boolean addAll(Collection<? extends String> collection)
 		{
 			answered = true;

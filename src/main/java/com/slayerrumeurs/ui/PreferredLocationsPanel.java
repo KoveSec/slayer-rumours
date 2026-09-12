@@ -86,7 +86,7 @@ public class PreferredLocationsPanel extends PluginPanel
 		SwingUtilities.invokeLater(this::rebuild);
 	}
 
-	static BufferedImage createNavigationIcon()
+	public static BufferedImage createNavigationIcon()
 	{
 		BufferedImage image = new BufferedImage(16, 16, BufferedImage.TYPE_INT_ARGB);
 		Graphics2D g = image.createGraphics();
