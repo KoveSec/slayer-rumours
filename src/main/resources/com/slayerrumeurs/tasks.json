@@ -1,0 +1,390 @@
+{
+  "version": 1,
+  "tasks": [
+    {
+      "id": "aberrant-spectres",
+      "displayName": "Aberrant spectres",
+      "aliases": ["aberrant spectre", "aberrant specters", "aberrant specter", "deviant spectres", "deviant spectre"],
+      "npcIds": [2, 3, 4, 5, 6, 7, 7279],
+      "npcNamePatterns": ["aberrant spectre", "deviant spectre"],
+      "defaultLocationId": "stronghold-slayer-cave",
+      "locations": [
+        {"id": "stronghold-slayer-cave", "label": "Stronghold Slayer Cave", "x": 2441, "y": 9776, "plane": 0, "tags": ["cannon", "task-only"], "hint": "South-west of the cave; cannon-friendly."},
+        {"id": "slayer-tower", "label": "Slayer Tower (1st floor)", "x": 3437, "y": 3542, "plane": 1, "tags": ["morytania"], "hint": "First floor of Slayer Tower."}
+      ]
+    },
+    {
+      "id": "abyssal-demons",
+      "displayName": "Abyssal demons",
+      "aliases": ["abyssal demon", "abby demons", "abby demon"],
+      "npcIds": [415, 416, 7241],
+      "npcNamePatterns": ["abyssal demon"],
+      "defaultLocationId": "catacombs",
+      "locations": [
+        {"id": "catacombs", "label": "Catacombs of Kourend", "x": 1676, "y": 10088, "plane": 0, "tags": ["multicombat"], "hint": "South-east Catacombs."},
+        {"id": "slayer-tower", "label": "Slayer Tower (top)", "x": 3418, "y": 3567, "plane": 2, "tags": ["morytania"], "hint": "Top floor of Slayer Tower."},
+        {"id": "abyssal-area", "label": "Abyssal Area", "x": 3018, "y": 4813, "plane": 0, "tags": ["fairy-ring"], "hint": "Fairy ring ALR."}
+      ]
+    },
+    {
+      "id": "ankous",
+      "displayName": "Ankous",
+      "aliases": ["ankou"],
+      "npcIds": [2514, 2515, 2516, 2517, 2518, 2519, 7257],
+      "npcNamePatterns": ["ankou"],
+      "defaultLocationId": "stronghold-of-security",
+      "locations": [
+        {"id": "stronghold-of-security", "label": "Stronghold of Security", "x": 1863, "y": 5239, "plane": 0, "tags": ["cannon"], "hint": "Sepulchre of Death, 4th level."},
+        {"id": "catacombs", "label": "Catacombs of Kourend", "x": 1642, "y": 9996, "plane": 0, "tags": ["multicombat"], "hint": "West Catacombs."}
+      ]
+    },
+    {
+      "id": "black-demons",
+      "displayName": "Black demons",
+      "aliases": ["black demon"],
+      "npcIds": [240, 1432, 2048, 2049, 2050, 2051, 2052, 7242],
+      "npcNamePatterns": ["black demon"],
+      "defaultLocationId": "chasm-of-fire",
+      "locations": [
+        {"id": "chasm-of-fire", "label": "Chasm of Fire", "x": 1435, "y": 10080, "plane": 3, "tags": ["cannon"], "hint": "Bottom level of the Chasm of Fire."},
+        {"id": "taverley-dungeon", "label": "Taverley Dungeon", "x": 2862, "y": 9775, "plane": 0, "tags": ["cannon"], "hint": "South of the blue dragons, dusty key or agility shortcut."},
+        {"id": "catacombs", "label": "Catacombs of Kourend", "x": 1721, "y": 10085, "plane": 0, "tags": ["multicombat"], "hint": "South-east Catacombs."}
+      ]
+    },
+    {
+      "id": "black-dragons",
+      "displayName": "Black dragons",
+      "aliases": ["black dragon", "brutal black dragons", "brutal black dragon"],
+      "npcIds": [252, 253, 254, 255, 256, 257, 258, 259, 7275],
+      "npcNamePatterns": ["black dragon"],
+      "defaultLocationId": "evil-chicken",
+      "locations": [
+        {"id": "evil-chicken", "label": "Evil Chicken's Lair", "x": 2454, "y": 4367, "plane": 0, "tags": ["cannon"], "hint": "Requires raw chicken; baby and adult black dragons."},
+        {"id": "taverley-dungeon", "label": "Taverley Dungeon", "x": 2832, "y": 9825, "plane": 0, "tags": [], "hint": "Far south of Taverley Dungeon."},
+        {"id": "catacombs", "label": "Catacombs (Brutal)", "x": 1616, "y": 10069, "plane": 0, "tags": ["brutal"], "hint": "Brutal black dragons in the Catacombs."}
+      ]
+    },
+    {
+      "id": "bloodvelds",
+      "displayName": "Bloodveld",
+      "aliases": ["bloodvelds", "mutated bloodveld", "mutated bloodvelds"],
+      "npcIds": [484, 485, 486, 487, 7276],
+      "npcNamePatterns": ["bloodveld"],
+      "defaultLocationId": "catacombs",
+      "locations": [
+        {"id": "catacombs", "label": "Catacombs of Kourend", "x": 1679, "y": 10085, "plane": 0, "tags": ["mutated", "multicombat"], "hint": "Mutated bloodveld in the Catacombs."},
+        {"id": "slayer-tower", "label": "Slayer Tower", "x": 3423, "y": 3575, "plane": 1, "tags": ["morytania"], "hint": "First floor of Slayer Tower."},
+        {"id": "meiyerditch-lab", "label": "Meiyerditch Laboratories", "x": 3598, "y": 9742, "plane": 0, "tags": ["mutated"], "hint": "Mutated bloodveld after Sins of the Father."}
+      ]
+    },
+    {
+      "id": "blue-dragons",
+      "displayName": "Blue dragons",
+      "aliases": ["blue dragon"],
+      "npcIds": [265, 266, 267, 268, 269, 5878, 5879],
+      "npcNamePatterns": ["blue dragon"],
+      "defaultLocationId": "taverley-dungeon",
+      "locations": [
+        {"id": "taverley-dungeon", "label": "Taverley Dungeon", "x": 2910, "y": 9802, "plane": 0, "tags": ["cannon"], "hint": "West of the dungeon; dusty key or agility shortcut."},
+        {"id": "myths-guild", "label": "Myths' Guild basement", "x": 1934, "y": 9008, "plane": 1, "tags": [], "hint": "Requires Dragon Slayer II."},
+        {"id": "catacombs", "label": "Catacombs of Kourend", "x": 1634, "y": 10074, "plane": 0, "tags": ["brutal"], "hint": "Brutal blue dragons."}
+      ]
+    },
+    {
+      "id": "cave-horrors",
+      "displayName": "Cave horrors",
+      "aliases": ["cave horror"],
+      "npcIds": [1047, 1048, 1049, 1050, 1051],
+      "npcNamePatterns": ["cave horror"],
+      "defaultLocationId": "mos-leharmless",
+      "locations": [
+        {"id": "mos-leharmless", "label": "Mos Le'Harmless Cave", "x": 3748, "y": 9373, "plane": 0, "tags": ["cannon", "light-source"], "hint": "Witchwood icon required. Light source recommended."}
+      ]
+    },
+    {
+      "id": "cave-kraken",
+      "displayName": "Cave kraken",
+      "aliases": ["cave krakens", "kraken", "krakens"],
+      "npcIds": [492],
+      "npcNamePatterns": ["cave kraken"],
+      "defaultLocationId": "kraken-cove",
+      "locations": [
+        {"id": "kraken-cove", "label": "Kraken Cove", "x": 2278, "y": 10010, "plane": 0, "tags": ["magic"], "hint": "South of Piscatoris. Magic is typical here."}
+      ]
+    },
+    {
+      "id": "dagannoth",
+      "displayName": "Dagannoth",
+      "aliases": ["dagannoths", "dags"],
+      "npcIds": [970, 971, 972, 7259],
+      "npcNamePatterns": ["dagannoth"],
+      "defaultLocationId": "catacombs",
+      "locations": [
+        {"id": "catacombs", "label": "Catacombs of Kourend", "x": 1666, "y": 9999, "plane": 0, "tags": ["multicombat"], "hint": "Central-west Catacombs."},
+        {"id": "lighthouse", "label": "Lighthouse dungeon", "x": 2517, "y": 10020, "plane": 0, "tags": ["cannon"], "hint": "After Horror from the Deep."},
+        {"id": "waterbirth", "label": "Waterbirth Island", "x": 2545, "y": 10143, "plane": 0, "tags": [], "hint": "Waterbirth dungeon, first area."}
+      ]
+    },
+    {
+      "id": "dark-beasts",
+      "displayName": "Dark beasts",
+      "aliases": ["dark beast"],
+      "npcIds": [4005, 7250],
+      "npcNamePatterns": ["dark beast"],
+      "defaultLocationId": "mourner-tunnels",
+      "locations": [
+        {"id": "mourner-tunnels", "label": "Mourner Tunnels", "x": 1992, "y": 4649, "plane": 0, "tags": ["cannon"], "hint": "West Ardougne mourner HQ; Mourning's End Part II."},
+        {"id": "iorwerth-dungeon", "label": "Iorwerth Dungeon", "x": 3232, "y": 12420, "plane": 0, "tags": [], "hint": "Prifddinas slayer dungeon."}
+      ]
+    },
+    {
+      "id": "drakes",
+      "displayName": "Drakes",
+      "aliases": ["drake"],
+      "npcIds": [8612, 8613],
+      "npcNamePatterns": ["drake"],
+      "defaultLocationId": "karuulm",
+      "locations": [
+        {"id": "karuulm", "label": "Karuulm Slayer Dungeon", "x": 1293, "y": 10208, "plane": 1, "tags": ["boots-of-stone"], "hint": "Middle level. Boots of stone or Brimstone/Granite boots."}
+      ]
+    },
+    {
+      "id": "dust-devils",
+      "displayName": "Dust devils",
+      "aliases": ["dust devil"],
+      "npcIds": [423, 7249],
+      "npcNamePatterns": ["dust devil"],
+      "defaultLocationId": "catacombs",
+      "locations": [
+        {"id": "catacombs", "label": "Catacombs of Kourend", "x": 1717, "y": 10052, "plane": 0, "tags": ["multicombat", "facemask"], "hint": "South Catacombs. Facemask, slayer helm, or gas mask."},
+        {"id": "smoke-dungeon", "label": "Smoke Dungeon", "x": 3213, "y": 9379, "plane": 0, "tags": ["cannon", "facemask"], "hint": "Pollnivneach Smoke Dungeon."}
+      ]
+    },
+    {
+      "id": "fire-giants",
+      "displayName": "Fire giants",
+      "aliases": ["fire giant"],
+      "npcIds": [2074, 2075, 2076, 2077, 2078, 2079, 2080, 2081, 2082, 2083, 2084, 7251, 7252],
+      "npcNamePatterns": ["fire giant"],
+      "defaultLocationId": "catacombs",
+      "locations": [
+        {"id": "catacombs", "label": "Catacombs of Kourend", "x": 1632, "y": 10057, "plane": 0, "tags": ["multicombat"], "hint": "West Catacombs."},
+        {"id": "brimhaven-dungeon", "label": "Brimhaven Dungeon", "x": 2665, "y": 9486, "plane": 0, "tags": ["cannon"], "hint": "North-west Brimhaven Dungeon."},
+        {"id": "waterfall-dungeon", "label": "Waterfall Dungeon", "x": 2577, "y": 9879, "plane": 0, "tags": [], "hint": "Glarial's tombstone entrance."},
+        {"id": "giants-den", "label": "Giants' Den", "x": 1456, "y": 9895, "plane": 0, "tags": ["cannon"], "hint": "South of the Giant Pit, Kourend."}
+      ]
+    },
+    {
+      "id": "fossil-wyverns",
+      "displayName": "Fossil Island wyverns",
+      "aliases": ["fossil island wyvern", "wyverns", "wyvern", "ancient wyvern", "spitting wyvern", "taloned wyvern", "long-tailed wyvern"],
+      "npcIds": [7792, 7793, 7794, 7795],
+      "npcNamePatterns": ["wyvern"],
+      "defaultLocationId": "wyvern-cave",
+      "locations": [
+        {"id": "wyvern-cave", "label": "Wyvern Cave (task)", "x": 3608, "y": 10292, "plane": 0, "tags": ["task-only"], "hint": "Task-only cave on Fossil Island. Elemental/mind shield or dragonfire ward."}
+      ]
+    },
+    {
+      "id": "gargoyles",
+      "displayName": "Gargoyles",
+      "aliases": ["gargoyle"],
+      "npcIds": [412, 413, 1543],
+      "npcNamePatterns": ["gargoyle"],
+      "defaultLocationId": "slayer-tower",
+      "locations": [
+        {"id": "slayer-tower", "label": "Slayer Tower (top)", "x": 3442, "y": 3544, "plane": 2, "tags": ["rock-hammer"], "hint": "Rock hammer or Gargoyle smasher to finish them."},
+        {"id": "slayer-tower-basement", "label": "Slayer Tower basement", "x": 3434, "y": 9935, "plane": 0, "tags": ["rock-hammer"], "hint": "Requires 58 Agility or 73 Slayer unlock."}
+      ]
+    },
+    {
+      "id": "greater-demons",
+      "displayName": "Greater demons",
+      "aliases": ["greater demon"],
+      "npcIds": [2025, 2026, 2027, 2028, 2029, 2030, 2031, 2032, 7244],
+      "npcNamePatterns": ["greater demon"],
+      "defaultLocationId": "chasm-of-fire",
+      "locations": [
+        {"id": "chasm-of-fire", "label": "Chasm of Fire", "x": 1435, "y": 10090, "plane": 2, "tags": ["cannon"], "hint": "Middle level of the Chasm of Fire."},
+        {"id": "catacombs", "label": "Catacombs of Kourend", "x": 1719, "y": 10060, "plane": 0, "tags": ["multicombat"], "hint": "South-east Catacombs."},
+        {"id": "brimhaven-dungeon", "label": "Brimhaven Dungeon", "x": 2636, "y": 9496, "plane": 2, "tags": [], "hint": "Upper level, near steel dragons."}
+      ]
+    },
+    {
+      "id": "hellhounds",
+      "displayName": "Hellhounds",
+      "aliases": ["hellhound"],
+      "npcIds": [104, 105, 135, 3133, 7256],
+      "npcNamePatterns": ["hellhound"],
+      "defaultLocationId": "taverley-dungeon",
+      "locations": [
+        {"id": "taverley-dungeon", "label": "Taverley Dungeon", "x": 2865, "y": 9836, "plane": 0, "tags": ["cannon"], "hint": "East of the blue dragons."},
+        {"id": "catacombs", "label": "Catacombs of Kourend", "x": 1645, "y": 10068, "plane": 0, "tags": ["multicombat"], "hint": "West Catacombs."},
+        {"id": "wilderness", "label": "Wilderness (Resource Area)", "x": 3176, "y": 3944, "plane": 0, "tags": ["wilderness"], "hint": "Wilderness Resource Area; high PK risk."}
+      ]
+    },
+    {
+      "id": "hydras",
+      "displayName": "Hydras",
+      "aliases": ["hydra"],
+      "npcIds": [8609],
+      "npcNamePatterns": ["hydra"],
+      "defaultLocationId": "karuulm",
+      "locations": [
+        {"id": "karuulm", "label": "Karuulm Slayer Dungeon", "x": 1311, "y": 10238, "plane": 0, "tags": ["boots-of-stone"], "hint": "Bottom level, east of Alchemical Hydra."}
+      ]
+    },
+    {
+      "id": "iron-dragons",
+      "displayName": "Iron dragons",
+      "aliases": ["iron dragon"],
+      "npcIds": [272, 273, 7254],
+      "npcNamePatterns": ["iron dragon"],
+      "defaultLocationId": "catacombs",
+      "locations": [
+        {"id": "catacombs", "label": "Catacombs of Kourend", "x": 1662, "y": 10085, "plane": 0, "tags": [], "hint": "South-east Catacombs with steel dragons."},
+        {"id": "brimhaven-dungeon", "label": "Brimhaven Dungeon", "x": 2711, "y": 9450, "plane": 0, "tags": [], "hint": "South-east metal dragon area."}
+      ]
+    },
+    {
+      "id": "jellies",
+      "displayName": "Jellies",
+      "aliases": ["jelly", "warped jellies", "warped jelly"],
+      "npcIds": [437, 438, 7277],
+      "npcNamePatterns": ["jelly"],
+      "defaultLocationId": "fremennik-slayer-dungeon",
+      "locations": [
+        {"id": "fremennik-slayer-dungeon", "label": "Fremennik Slayer Dungeon", "x": 2705, "y": 10027, "plane": 0, "tags": [], "hint": "Fairy ring AJR."},
+        {"id": "catacombs", "label": "Catacombs (Warped)", "x": 1690, "y": 10028, "plane": 0, "tags": ["warped"], "hint": "Warped jellies in the Catacombs."}
+      ]
+    },
+    {
+      "id": "kalphite",
+      "displayName": "Kalphite",
+      "aliases": ["kalphites", "kalphite workers", "kalphite soldier", "kalphite soldiers", "kalphite worker"],
+      "npcIds": [955, 956, 957, 959, 960],
+      "npcNamePatterns": ["kalphite"],
+      "defaultLocationId": "kalphite-cave",
+      "locations": [
+        {"id": "kalphite-cave", "label": "Kalphite Cave", "x": 3322, "y": 9503, "plane": 0, "tags": ["cannon"], "hint": "East of Shantay Pass, task cave."},
+        {"id": "kalphite-lair", "label": "Kalphite Lair", "x": 3293, "y": 9503, "plane": 0, "tags": ["cannon"], "hint": "Requires a rope. Workers and soldiers on the first level."}
+      ]
+    },
+    {
+      "id": "kurask",
+      "displayName": "Kurask",
+      "aliases": ["kurasks"],
+      "npcIds": [410, 411, 7405],
+      "npcNamePatterns": ["kurask"],
+      "defaultLocationId": "fremennik-slayer-dungeon",
+      "locations": [
+        {"id": "fremennik-slayer-dungeon", "label": "Fremennik Slayer Dungeon", "x": 2703, "y": 9997, "plane": 0, "tags": ["leaf-bladed"], "hint": "Leaf-bladed weapon, broad bolts, or magic dart."},
+        {"id": "iorwerth-dungeon", "label": "Iorwerth Dungeon", "x": 3224, "y": 12440, "plane": 0, "tags": ["leaf-bladed"], "hint": "Prifddinas slayer dungeon."}
+      ]
+    },
+    {
+      "id": "lizardmen",
+      "displayName": "Lizardmen",
+      "aliases": ["lizardman", "lizardman brute", "lizardman brutes", "lizardman shaman", "lizardman shamans"],
+      "npcIds": [6914, 6915, 6916, 6917, 6918, 6919, 7573, 7574],
+      "npcNamePatterns": ["lizardman"],
+      "defaultLocationId": "lizardman-canyon",
+      "locations": [
+        {"id": "lizardman-canyon", "label": "Lizardman Canyon", "x": 1511, "y": 3694, "plane": 0, "tags": ["cannon"], "hint": "Shayzien district canyon; cannon-friendly."},
+        {"id": "lizardman-settlement", "label": "Lizardman Settlement", "x": 1308, "y": 3574, "plane": 0, "tags": ["cannon"], "hint": "West of the Farming Guild."},
+        {"id": "battlefront", "label": "Battlefront", "x": 1385, "y": 3710, "plane": 0, "tags": [], "hint": "Kebos Lowlands battlefront."}
+      ]
+    },
+    {
+      "id": "nechryael",
+      "displayName": "Nechryael",
+      "aliases": ["nechs", "nech", "greater nechryael", "greater nechryaels"],
+      "npcIds": [8, 11, 7278],
+      "npcNamePatterns": ["nechryael"],
+      "defaultLocationId": "catacombs",
+      "locations": [
+        {"id": "catacombs", "label": "Catacombs of Kourend", "x": 1694, "y": 10080, "plane": 0, "tags": ["greater", "multicombat"], "hint": "Greater nechryael; death spawns do not count."},
+        {"id": "slayer-tower", "label": "Slayer Tower (top)", "x": 3440, "y": 3564, "plane": 2, "tags": ["morytania"], "hint": "Regular nechryael on the top floor."}
+      ]
+    },
+    {
+      "id": "skeletal-wyverns",
+      "displayName": "Skeletal wyverns",
+      "aliases": ["skeletal wyvern"],
+      "npcIds": [465, 466, 467, 468],
+      "npcNamePatterns": ["skeletal wyvern"],
+      "defaultLocationId": "asgarnian-ice-dungeon",
+      "locations": [
+        {"id": "asgarnian-ice-dungeon", "label": "Asgarnian Ice Dungeon", "x": 3056, "y": 9561, "plane": 0, "tags": ["elemental-shield"], "hint": "South of Port Sarim. Elemental/mind shield or dragonfire ward."}
+      ]
+    },
+    {
+      "id": "smoke-devils",
+      "displayName": "Smoke devils",
+      "aliases": ["smoke devil", "nuclear smoke devil"],
+      "npcIds": [498, 499, 6639],
+      "npcNamePatterns": ["smoke devil"],
+      "defaultLocationId": "smoke-devil-dungeon",
+      "locations": [
+        {"id": "smoke-devil-dungeon", "label": "Smoke Devil Dungeon", "x": 2378, "y": 9452, "plane": 0, "tags": ["facemask", "cannon"], "hint": "South of Castle Wars. Facemask or slayer helm required."}
+      ]
+    },
+    {
+      "id": "steel-dragons",
+      "displayName": "Steel dragons",
+      "aliases": ["steel dragon"],
+      "npcIds": [139, 274, 275, 7255],
+      "npcNamePatterns": ["steel dragon"],
+      "defaultLocationId": "catacombs",
+      "locations": [
+        {"id": "catacombs", "label": "Catacombs of Kourend", "x": 1608, "y": 10055, "plane": 0, "tags": [], "hint": "South-west Catacombs."},
+        {"id": "brimhaven-dungeon", "label": "Brimhaven Dungeon", "x": 2647, "y": 9441, "plane": 0, "tags": [], "hint": "South metal dragon area."}
+      ]
+    },
+    {
+      "id": "suqahs",
+      "displayName": "Suqahs",
+      "aliases": ["suqah"],
+      "npcIds": [787, 788, 789, 790, 791, 792],
+      "npcNamePatterns": ["suqah"],
+      "defaultLocationId": "lunar-isle",
+      "locations": [
+        {"id": "lunar-isle", "label": "Lunar Isle", "x": 2139, "y": 3852, "plane": 0, "tags": ["cannon"], "hint": "North-east Lunar Isle. Seal of passage or Fremennik elite diary."}
+      ]
+    },
+    {
+      "id": "trolls",
+      "displayName": "Trolls",
+      "aliases": ["troll", "mountain troll", "mountain trolls", "ice troll", "ice trolls"],
+      "npcIds": [4129, 4130, 4131, 4132, 4133, 4134, 4135],
+      "npcNamePatterns": ["troll"],
+      "defaultLocationId": "death-plateau",
+      "locations": [
+        {"id": "death-plateau", "label": "Death Plateau", "x": 2868, "y": 3594, "plane": 0, "tags": ["cannon"], "hint": "West of Burthorpe."},
+        {"id": "troll-stronghold", "label": "Troll Stronghold", "x": 2833, "y": 10093, "plane": 1, "tags": [], "hint": "Inside the stronghold after Troll Stronghold quest."}
+      ]
+    },
+    {
+      "id": "wyrms",
+      "displayName": "Wyrms",
+      "aliases": ["wyrm"],
+      "npcIds": [8610, 8611],
+      "npcNamePatterns": ["wyrm"],
+      "defaultLocationId": "karuulm",
+      "locations": [
+        {"id": "karuulm", "label": "Karuulm Slayer Dungeon", "x": 1274, "y": 10188, "plane": 0, "tags": ["boots-of-stone"], "hint": "Lower level, west side. Boots of stone or better."}
+      ]
+    },
+    {
+      "id": "adamant-dragons",
+      "displayName": "Adamant dragons",
+      "aliases": ["adamant dragon"],
+      "npcIds": [8030, 8090],
+      "npcNamePatterns": ["adamant dragon"],
+      "defaultLocationId": "lithkren",
+      "locations": [
+        {"id": "lithkren", "label": "Lithkren Vault", "x": 1568, "y": 5073, "plane": 0, "tags": [], "hint": "After Dragon Slayer II. Lithkren vault."}
+      ]
+    }
+  ]
+}
